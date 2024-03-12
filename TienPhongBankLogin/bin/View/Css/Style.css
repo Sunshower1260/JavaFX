@@ -1,0 +1,7 @@
+#loginPane {
+    -fx-border-color: #7e5282;
+    -fx-background-color: #ffd98c;
+}
+button {
+    -fx-text-fill: #7e5282;
+}

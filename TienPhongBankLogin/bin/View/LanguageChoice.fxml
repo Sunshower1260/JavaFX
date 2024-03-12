@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="228.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LanguageChoiceController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/Logo-TPBank-Sl.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="vietnamese" alignment="CENTER" layoutX="61.0" layoutY="121.0" mnemonicParsing="false" onAction="#LanguageChoice" prefHeight="37.0" prefWidth="106.0" style="-fx-background-radius: 7px; -fx-background-color: white;" text="Vietnamese" textFill="#7e5282">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="83.0" prefHeight="17.0" prefWidth="228.0" text="Feel free to choose your language" textFill="#7e5282">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="english" alignment="CENTER" layoutX="61.0" layoutY="170.0" mnemonicParsing="false" onAction="#LanguageChoice" prefHeight="37.0" prefWidth="106.0" style="-fx-background-radius: 7px; -fx-background-color: white;" text="English" textFill="#7e5282">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" alignment="CENTER" layoutX="61.0" layoutY="219.0" mnemonicParsing="false" onAction="#exitOp" prefHeight="37.0" prefWidth="106.0" style="-fx-background-radius: 7px; -fx-background-color: white;" text="Exit" textFill="#7e5282">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
